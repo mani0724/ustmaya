@@ -15,13 +15,17 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<style>
+
+
+</style>
   </head>
   <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img class="logoimg" src="./Resources/Images/Group 39856.png" alt="" >
+          <img class="logout" src="./Resources/Images/Group 39856.png" alt="" height="80px" width="150px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,6 +35,11 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourprograms.html">Our Programs</a>
+              
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="mellowbumps.html">MellowBumps</a>
               
@@ -44,11 +53,11 @@
             <li class="nav-item">
               <a class="nav-link" href="contact us.html">Contact Us</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <button type="button" class="btn b1" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Book Now
               </button>
-            </li>
+            </li>-->
            
           </ul>
       
@@ -113,18 +122,14 @@
     <section>
     <div class="container-flex"  id="myCarousel">
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+         
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./Resources/Images/mam (1).jpg" class="d-block w-100" alt="slide2">
-                <div class="carousel-caption">
+                <img src="./Resources/Images/mam (1).jpg" class="img1 d-block w-100" alt="slide2">
+                <!--<div class="carousel-caption">
                     <a href="#section99" class="button" style="float:left;">Watch Now</a>
-                </div>
-                <!--<div class="mask flex-center">
+                </div>-->
+                <div class="mask flex-center">
                     <div class="container">
                       <div class="row align-items-center">
                         <div class="col-md-7 col-12 order-md-1 order-2">
@@ -132,12 +137,16 @@
                               <p style=" line-height: 40px;"><span style="font-size:32px ; color: #fff; font-weight: 700;"></span><br>
                                 
                               <span style="font: size 32px  ; color:white; font-weight: 600;"></span></p>
-                              </div>-->
-                         </div>     
+                              </div>
+                         </div> 
+                     </div>
+                 </div>
+             </div>
+        </div>
                       
             
             
-            <div class="carousel-item">
+            <!--<div class="carousel-item">
                 <img src="./Resources/Images/new mika1.jpg" class="d-block w-100" alt="slide2">
                 <div class="carousel-caption">
                    <a href="#section99" class="button" style="float:left;">Watch Now</a> 
@@ -148,34 +157,15 @@
                         <div class="col-md-7 col-12 order-md-1 order-2">
                           <h4></h4>
                             <p style=" line-height: 40px;"><span style="font-size:32px ; color: #fff; font-weight: 700;"></span><br>
-                            <span style="font: size 32px  ; color:white; font-weight: 600;"> </span></p>-->
-                             </div>
+                            <span style="font: size 32px  ; color:white; font-weight: 600;"> </span></p>
+                             </div>-->
                 
-            <div class="carousel-item">
-                <img src="./Resources/Images/mam (2).jpg" class="d-block w-100" alt="slide2">
-                <div class="carousel-caption">
-                    <a href="#section1000" class="button" style="float:left;">Watch Now</a>
-                </div>
-                <!--<div class="mask flex-center">
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-md-7 col-12 order-md-1 order-2">
-                          <h4></h4>
-                            <p style=" line-height: 40px;"><span style="font-size:32px ; color: #fff; font-weight: 700;"></span><br>
-                            <span style="font: size 32px  ; color:white; font-weight: 600;"> </span></p>-->
-                             </div>
+         
                     
             </div>
           </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+           
+        
     </section>
     
     
@@ -184,105 +174,99 @@
     <div class="container main" id="section1"  data-aos="fade-up" data-aos-easing="linear"  
     data-aos-once="true"
     data-aos-duration="1000">
-        <h2>Are you a parent to be?<br>
-             Do you want to learn how to manage</h2>
+        <h2 class="offer"> Namaste. <br>
+Utsmaya in Sanskrit means ‘to bloom’. Our philosophy at Utsmaya is that every child has the potential to bloom to their best version if given the right mix of encouragement, love and acceptance.</h2>
     </div>
     <div class="container" id="section12"  >
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-easing="linear"  
+            <div class="col-sm-12 col-md-12 col-lg-12" data-aos="fade-up" data-aos-easing="linear"  
             data-aos-once="true"
             data-aos-duration="1000">
-               <img src="./Resources/Images/mom.jpg" alt="" >
+              
+              <h4 class="offer">
+                  
+We offer parenting intervention programs for a range of parents. Programs are delivered by trained psychologists. The workshops are online and include follow ups and hand holding through one to one therapy sessions. 
+
+              </h4>
             </div>
-            <div class=" col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-easing="linear"  
+        <div class="row" data-aos="fade-up" data-aos-easing="linear"  
             data-aos-once="true"
-            data-aos-duration="1000">
-            <ul>
-                <li> <img src="./Resources/Images/Group 39845.png" alt="">Preterm delivery</li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Low birth weight</li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Lower immunity</li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Delay in learning - to walk, talk, engage with <span>family, social skills etc</span></li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Frequent tantrums</li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Aggressive behavior and</li>
-                <li><img src="./Resources/Images/Group 39845.png" alt="">Low academic performance in the long run of <span>your child’s life.</span></li>
-            </ul>
-            </div>
-        </div>
+            data-aos-duration="1000"
+        style="margin-top:30px; padding-right: calc(var(--bs-gutter-x) * .9);
+    padding-left: calc(var(--bs-gutter-x) * .9);     margin-right: calc(-.2 * var(--bs-gutter-x));
+    margin-left: calc(-.0 * var(--bs-gutter-x));" id="cardshow">    
+  <div class="col-sm-6  col-lg-4 col-md-6">
+    
+  </div>
+  <div class="col-sm-12 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> Level 1     </h5>
+        <p class="card-text">   <strong>90 minutes</strong> for following age groups : <br>Expecting Couples - 2years olds<br> 2 years - 5 years <br> 5years olds to 8 years olds<br>
+        </p>
+        <a href="#" class="btn b2"><i class="fa-sharp fa-solid fa-indian-rupee-sign"> 199</i></a>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-12 col-lg-4 col-md-6">
+    
+  </div>
+</div>
+          
+        
     </div>
     
     </section>
-    <section id="section99" style="margin-top:60px">
-      <div class="container video" 
-       data-aos="zoom-in" data-aos-easing="linear"  
-      data-aos-once="true"
-      data-aos-duration="1000">
-         <h2 id="section100">To know more about utsmaya's parenting interventions <br> watch these videos</h2>
-          <div class="row g-3">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/taTX5N3vTnw"></iframe>
-                  <h3>Can my child’s life be<br> better than mine?</h3>
-                  
-              </div>
-            </div>
-               <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/Y0XCzqlBCS0"></iframe>
-                <h3>What are parenting intervention programs?<br> Who are they for? </h3> 
-                  
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/r8rHQU4wzTI"></iframe>
-                <h3>Are parenting intervention<br> programs relevant for India?</h3>
-                  
-                  
-              </div>
-            </div>
-         
-            <!--<div class="col-4">
-              <div class="p-3">
-                <iframe width="320" height="300" src="https://youtube.com/embed/oTZJ7NcDS2s"></iframe>
-                  <h3>Do I need parenting<br> interventions? </h3>
-                 
-              </div>
-            </div>-->
-           
-            <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="p-3">
-              <iframe width="100%" height="300" src="https://youtube.com/embed/vjF1WJvBERo"></iframe>
-                <h3>Do I need parenting interventions?</h3>
-                
-            </div>
-            </div>
-            <div class=" col-sm-12 col-md-4 col-lg-4" >
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/3MQanBXLCY8"></iframe>
-                  <h3>Can Mellow Parenting help<br> expecting parents? </h3> 
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4" >
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/PpXFeaU5gms"></iframe>
-                  <h3>Can you really bond with baby  during pregnancy </h3>
-                 </div>
-                 </div>
-                 <div class="col-sm-12 col-md-4 col-lg-4" id="section1000">
-              <div class="p-3">
-                <iframe width="100%" height="300" src="https://youtube.com/embed/aBAlnuzpk-A"></iframe>
-                  <h3 class="text-center">Why choose Utsmaya</h3>
-                 </div>
-            </div>
-          </div>
-        </div>
-        
+    
+    
+    
+    <section>
+        <div class="container" id="section1" style="margin-bottom:30px;">
+            <h2>Why is parenting coaching important? Isn't parental instinct enough?</h2>
+            <p class="offer1">
+              Have you ever been in a situation where your child was throwing a tantrum and you felt embarrassed? Have you found your child lying to you? Does your child need a lot of motivation to complete a task? Or does your child give up easily? Educate yourself on what you can do to build self-confidence and self-worth. Find out how to teach integrity and honesty to your child so your child doesn't fear speaking the truth. Role model to your child how to delay gratification so they learn to wait for reward and can work towards that.
+              If you desire to walk this path, enrol for our Parenting Masterclass to learn from a psychologist. 
+              
+            </p>
+            <p class="offer1">
+               Parenting goes beyond providing food, shelter, clothing and education. It includes giving your child unconditional love, acceptance and care - physical and emotional. With the traditional Indian family system changing its structure and family size shrinking there aren’t as many adults available to raise a child today. Added to this is the impact of urban lifestyles and if both parents are working, parenting can become more challenging. Utsmaya offers customised hand holding of parents to understand their child’s unique needs and guide parents to be able to meet those needs.  
+            </p>
+            <p class="offer1">
+                <strong>
+                Utsmaya is founded by mother-daughter psychologist duo Mamtha Rajesh and Mihika Rajesh, practising since 2000 and 2018 respectively. 
+</strong>
 
+            </p>
+            <p class="offer1">
+              Mamtha Rajesh has a Masters in Psychology and is extensively trained in counselling and psychotherapy. Having worked with more than 2000+ clients from across 12 countries, she has a nuanced understanding of human emotions and family dynamics. 
+              Mihika Rajesh has completed her Masters in Mental Health in Children and Young Adults from the University of Edinburgh, Scotland and is a trained counsellor. She has worked with children since 2018 and has a private practice. 
+               
+
+            </p>
+        </div>
+    </section>
+    
+    <section>
+      <div class="container" style="margin-top:30px; margin-bottom:30px;">
+          <h2 style="text-align:center" data-aos="fade-up" data-aos-easing="linear"  
+          data-aos-once="true"
+          data-aos-duration="1000">
+              To see our full Parenting Masterclass programs 
+          <a href="ourprograms.html" class="btn b1" style=" text-align:center;background-color:#5F113F;color:#fff;"> Click here</span> </a>
+          </h2>
+         
+      </div>
+      
   </section>
+         
+        
+           
+
+
 
     <!--section3-->
 
-    <section>
+    <!--<section>
         <div class="container-fluid" id="section2" >
             <div class="row">
                 <div class=" col-sm-12 col-md-6 col-lg-6" data-aos="fade-down" data-aos-easing="linear"  
@@ -316,11 +300,11 @@
             </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--section3-->
 
-    <section>
+    <!--<section>
         <div class="container-fluid" id="section3" >
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4" data-aos="flip-up" data-aos-easing="linear"  
@@ -344,11 +328,11 @@
                 
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--section4-->
 
-    <section>
+    <!--<section>
         <div class="container  p-5" id="section4" data-aos="fade-up" data-aos-easing="linear"  
         data-aos-once="true"
         data-aos-duration="1000">
@@ -406,11 +390,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--section5-->
 
-    <section>
+    <!--<section>
         <div class="container-fluid d-grid" id="section5">
             <div class="row">
                 <div class=" col-sm-12 col-md-12 col-12  p-5 about" data-aos="fade-up" data-aos-easing="linear"  
@@ -424,233 +408,95 @@
                     </p>
                     <p>Mellow bumps are offered at about twenty to thirty weeks gestation to capture
                         the period when the pregnancy is most secure, and the parent may have
-                        experienced foetal movement but before attention is taken up with the delivery.</p>-->
+                        experienced foetal movement but before attention is taken up with the delivery.</p>
                        <button class="button" style="border-radius:20px;margin-left: 50px;"> <a href="mellowbumps.html" class="button" style="color:#5F113F">Read more</a></button>
                 </div>
             </div>
 
         </div>
-    </section>
+    </section>-->
 
     <!--section6-->
-    <section>
-        <div class="container p-5" id="section6" data-aos="fade-up" data-aos-easing="linear"  
-        data-aos-once="true"
-        data-aos-duration="1000">
-            <h5>Parenting Intervention Programs</h5>
-            <h4>Mellow Bumps & Mellow Dads-to-be are our antenatal programmes, delivered in
-                separate seven week groups for mums and dads to be with each session lasting two
-                hours.</h4>
-        </div>
-
-        <div class="container d-grid" id="section61">
-            <div class="row">
-                <div class=" col-sm-12 col-md-5 col-lg-5 p-3" data-aos="fade-up" data-aos-easing="linear"  
-                data-aos-once="true"
-                data-aos-duration="1000">
-                    <img src="./Resources/Images/mellow (1).png" alt="">
-
-                </div>
-                <div class=" col-sm-12 col-md-7 col-md-7 p-3" data-aos="fade-up" data-aos-easing="linear"  
-                data-aos-once="true"
-                data-aos-duration="1000">
-                    <h5>Mellow Bumps & Mellow Dads</h5>
-                    <p>Mellow Bumps is a seven week group based antenatal programme for expecting parents. The programme aims to decrease the stress levels of expecting parents, improve their mental wellbeing and help build a relationship with their baby before birth.</p>
- 
-                    <p>It supports parents to understand that babies are born ready to interact and the importance of this interaction on brain development, social and emotional development of the baby. Each week there is a theme for the mum or dad, support group session, a baby activity and a relaxation exercise.</p>  
-                    
-                   <p>Mellow Bumps is offered between  twenty to thirty weeks gestation to capture the period when the pregnancy is most secure, and the parents would  have experienced foetal movement. The program ends  before attention is taken up with the preparation for the arrival of the baby.</p> 
-                   <p>These programmes will be conducted both online and offline.</p>
-                   
-                    <!--<button type="button" class="btn">Read More</button>-->
-                </div>
-            </div>
-        </div>
-        <div class="container video" id="section99"
-       data-aos="zoom-in" data-aos-easing="linear"  
-      data-aos-once="true"
-      data-aos-duration="1000">
-      <div class="row g-2">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="p-3">
-            <iframe width="100%" height="300" src="https://youtube.com/embed/oQwNymP8fE0"></iframe>
-              <h3>Mellow Parenting &<br> Utsmaya collaboration</h3>
-              
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="p-3">
-            <iframe width="100%" height="300" src="https://youtube.com/embed/PZs041OTM-Y"></iframe>
-            <h3>Mellow Parenting in <br> other countries</h3>
-              
-              
-          </div>
-        </div>
-        </div>
-        </div>
-    </section>
+   
 
 
 
     <!--section7-->
 
-    <section>
-        <div class="container-fluid" id="section7">
-            <h5> The Team</h5>
-            <div class="container pb-5"  >
-                <div class="row g-1">
-                    <div class="col-md-4" data-aos="zoom-in" data-aos-easing="linear"  
-                    data-aos-once="true"
-                    data-aos-duration="1000">
-                        <div class="card" style="width: 18rem; border: none;">
-                            <img src="./Resources/Images/mam.jpg" class="card-img-top" alt="..." height="300px" onContextMenu="return false;" >
-                            <h4> <strong>Mamtha </strong> <br> Group Facilitator </h4> 
-                            <div class="card-body">
-                             
-                              <p class="card-text">Mamtha Rajesh has  been practicing as a counselor since 2000 and has worked with thousands of individuals 
-                                across India and the world in their journey of self discovery. She has extensive training in non directive <span id="dots"></span><span id="more"> counselling, psychotherapy, transactional analysis, sexual wellness and expressive art mediums like art therapy and sand tray therapy. She has worked with individuals, couples and families over two decades. She has also worked in the corporate space as a consultant counselor. This rich and diverse experience has gifted her with a nuanced understanding of human emotions and its myriad ways of impacting people and their problems. A therapist can only take their client to a place where they have been themselves. As an ethical practitioner she has been  in supervision and in personal therapy herself since 2006 and strives to understand and see herself at a deeper level. This helps her to see, hear and understand the client better.</span></p>
-                                <div class="text-center">
-                                    <button onclick="myFunction()" id="myBtn">Read More</button>
-                                  </div>
-                            </div>
-                           
-                          </div>
-    
-                    </div>
-                    <div class="col-md-4" data-aos="zoom-in" data-aos-easing="linear"  
-                    data-aos-once="true"
-                    data-aos-duration="1000">
-                        <div class="card" style="width: 18rem; border: none;">
-                            <img src="./Resources/Images/Mask Group 82.jpg" class="card-img-top" alt="..." height="300px"  onContextMenu="return false;">
-                            <h4> <strong>Mihika</strong> <br> Group Facilitator </h4> 
-                            <div class="card-body">
-                                
-                                <p class="card-text">Mihika Rajesh is one of the rare young Indians, who early in life at the age of 16, decided to become a psychologist to work towards providing a safe space for children’s mental health and provide support for parents raising<span id="dots1"></span><span id="more1"> young children. In pursuit of this, she completed her Bachelor’s degree in psychology and a Master of science in Mental Health for Children and Young People from the University of Edinburgh. She has spent many years volunteering with children at Kidwai memorial institute of oncology, Bangalore and with Let us Dream, an NGO in the USA to build children’s identity 
-                                  and self esteem. As an ethical practitioner she is in personal therapy and supervision</span></p>
-                                  <div class="text-center">
-                                    <button onclick="myFunction1()" id="myBtn1">Read More</button>
-                                  </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4" data-aos="zoom-in" data-aos-easing="linear"  
-                    data-aos-once="true"
-                    data-aos-duration="1000">
-                        <div class="card" style="width: 18rem; border: none;">
-                            <img src="./Resources/Images/staff-1.jpg" class="card-img-top" alt="..." height="300px"  onContextMenu="return false;">
-                            <h4> <strong>Rosemary </strong> </h4> 
-                            <div class="card-body">
-                                
-                                <p class="card-text">Rosemary’s passion is to support the growth and continuing professional development of all Mellow staff to achieve their potential, which in turn helps make the Mellow team a strong base with the knowledge and capability to support the many Mellow  <span id="dots2"></span><span id="more2"> Practitioners throughout the world.Rosemary, as a qualified member of the Institute of Leadership and Management,  has been with Mellow Parenting since the organisation’s inception in 2006. Through supporting the organisation becoming a registered charity in Scotland, leading it through gaining limited company registration with charitable status, achieving ISO 9001 Quality Standard and also the Charity Excellence Framework Quality Mark, Rosemary continues to ensure that Governance and strong leadership is paramount to the success of the Organisation. Her key role is to ensure that Mellow Parenting continues to flourish and that the many parents and families throughout the world are able to access Mellow Programmes, by working to set up new partnerships and teams around the globe.</span></p>
-                                  <div class="text-center">
-                                    <button onclick="myFunction2()" id="myBtn2">Read More</button>
-                                  </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                <div class="row g-1 pt-5">
-                  <div class="col-md-2">
-                     
-                  </div>
-                  <div class="col-md-4" data-aos="zoom-in" data-aos-easing="linear"  
-                  data-aos-once="true"
-                  data-aos-duration="1000">
-                      <div class="card" style="width: 18rem; border: none;">
-                          <img src="./Resources/Images/staff-3.jpg" class="card-img-top" alt="..." height="300px"  onContextMenu="return false;">
-                          <h4> <strong>Raquib</strong> </h4> 
-                          <div class="card-body">
-                           
-                            <p class="card-text">Raquib is committed to strengthening parent-child relationships,
-                               and improving parent- child wellbeing. He has a Masters Degree in Children and Young People's Mental Health & Psychological Practice from the University of Edinburgh (UK)<span id="dots3"></span><span id="more3">and over 14 year's experience in the field of mental health.As the Mellow HQ Research & Development Officer and qualified Trainer, Raquib has had the privilege of working directly with professionals and families in each country Mellow interventions are used. He has supported professionals from across a wide range of disciplines working in the early years and mental health field. His key role involves supporting organisations to implement Mellow interventions in their local areas and evaluate the intervention by testing for impact and cultural-contextual appropriateness. Then using this learning to share best practice and bridge the gap between practice, research and policy. As a strong advocate of improving perinatal mental health services Raquib is a member of the Global Alliance Maternal Mental health (GAMMH) steering group and a supporter of the UK Infant Mental Health Alliance (UK).</span></p>
-                              <div class="text-center">
-                                  <button onclick="myFunction3()" id="myBtn3">Read More</button>
-                                </div>
-                          </div>
-                         
-                        </div>
-  
-                  </div>
-                  <div class="col-md-4" data-aos="zoom-in" data-aos-easing="linear"  
-                  data-aos-once="true"
-                  data-aos-duration="1000">
-                      <div class="card" style="width: 18rem; border: none;">
-                          <img src="./Resources/Images/staff-2.jpg" class="card-img-top" alt="..." height="300px"  onContextMenu="return false;">
-                          <h4> <strong>Rachel</strong> </h4> 
-                          <div class="card-body">
-                              
-                              <p class="card-text">Rachel is passionate about community based family support and ending institutional care for children. In particular, she seeks to champion the rights of children with additional needs and disability. She has a Masters in Community Disability Studies <span id="dots2"></span> <span id="more8"> from the Institute of Child Health, University College London and a BSc (Hons) in Physiotherapy. In 2002, she went to work and live in Tajikistan, and became a Disability Programme Coordinator for an INGO. In 2015, she began working at Mellow Parenting. In her role as International and Programme Lead she is involved in designing programmes and delivers on and offline Mellow Parenting training and supervision in the UK and internationally. She represents Mellow on the UK Parenting Programme Alliance and the Scottish International Development Alliance.  In addition, she is training advisor for The Women’s Council who support the work of ADAPT in Mumbai.</span></p>
-                                 
-                                <div class="text-center">
-                                  <button onclick="myFunction8()" id="myBtn8">Read More</button>
-                                </div>
-                          </div>
-                        </div>
-                  </div>
-                  <style>
-                      #more8{
-                          display:none;
-                      }
-                  </style>
-                  <script>
-                       function myFunction8() {
-                                var dots8 = document.getElementById("dots8");
-                                var moreText = document.getElementById("more8");
-                                var btnText = document.getElementById("myBtn8");
-                            
-                            
-                                if (dots.style.display === "none") {
-                                    dots.style.display = "flex";
-                                    btnText.innerHTML = "Read more";
-                                    moreText.style.display = "none";
-                                } else {
-                                    dots.style.display = "none";
-                                    btnText.innerHTML = "Read less";
-                                    moreText.style.display = "flex";
-                                }
-                                }  
-                                
-                  </script>
-                  <div class="col-md-2">
-                     
-                  </div>
-              </div>
-            </div>
-    </section>
+   
 
     <!--section8-->
 
-    <!--<section id="section8">
+    <section id="section8">
       <div class="container-fluid p-5" data-aos="fade-up" data-aos-easing="linear"  
       data-aos-once="true"
       data-aos-duration="1000">
-        <h2>Testimonials</h2>
+        <h2>Testimonials from our Clients</h2>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade cl1" data-bs-ride="carousel" id="carousel1">-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade cl1" data-bs-ride="carousel" id="carousel1" >
         <!-- Carousel indicators -->
-        <!--<div class="carousel-indicators">
+        <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
+          <div class="row">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 
-                <p class="testimonial text-center p-5">Research has shown that the parents' state of mind during pregnancy has a long-term<br>
-                  impact on the physical health, mental health, behavior and learning of children, even as long as five years after birth.</p>-->
-                <!--<p class="overview"><b>Michael Holz</b>Parent <a href="#">OsCorp </a></p>-->
-            <!--</div>
+                <p class="testimonial text-center p-5">"Before counseling I wasn't aware why I was so innocent, sensitive and fearful for my age. After counseling, I realized how my over protective up bringing impacted my personality as an adult. Due to this understanding, I am raising my children from the beginning to be more self-dependent and aware of the surroundings. I believe this will help them become smart adults with good self-esteem. I feel grateful for your support and it has brought a great difference in my perception ".</p>
+                <p class="overview" style="margin-bottom:60px;"><b></b> <a href="#">Smitha</a></p>
+            </div>
             <div class="carousel-item">
-              <p class="testimonial text-center p-5">Factors that impact parents' state of mind ranges from physical stress of pregnancy to anxiety<br>about delivery and labor pain, financial stress, strained relationship with partner or family members,<br> living in a joint family environment, managing home and career,  societal pressure and concerns of being a good parent etc.</br>
-              In addition to the mother’s State of mind, fathers state of mind has an equal impact on the<br> unborn baby too. Therefore, we focus on supporting the well-being of both parents. </p>-->
-                <!--<p class="overview" style="margin-bottom:60px;"><b>Antonio Moreno</b>parent <a href="#">Circle </a></p>-->
-            <!--</div>
+              <p class="testimonial text-center p-5">I reached out to Mamtha with a problem over different styles and priorities in the parenting approach between my husband and myself. 
+ 
+I used to get stressed and disappointed and this issue will spill over into other issues and become a very tangled situation. 
+ 
+Working with Mamtha, helped me realise that this is quite normal in most households and every individual has a different view on parenting given their own upbringing and background. Talking to her helped me relieve my stress and helped me be heard. 
+Working with her helped me realise that we can have different approaches in parenting and we need not be necessarily aligned on every topic. She helped me see that my husband was also coming from the same place of love and concern for our child and it's just that it's in a different shape and form. This relieved my concern & stress a lot. 
+ 
+After a few sessions, I was able to have clarity and be more objective in seeing such situations and I had more tools in my kit to tackle such situations and pick my battles on which ones to compromise on and which ones to persevere on. 
+ 
+Mamtha’s counselling has helped me become a better & conscious parent and has reduced arguments and instilled better peace & harmony in the house. And hence a more peaceful environment for our child to grow in.
+</p>
+                <p class="overview" style="margin-bottom:60px;"><b> </b>K <a href="#">(name withheld on request)</a></p>
+            </div>
             <div class="carousel-item">
-              <p class="testimonial text-center p-5">These issues are manageable. Do you want to know how to manage this? What can you do today <br>to provide a safe and secure in utero environment (in the womb)
-                for your baby? A pregnancy where stress is reduced <br>and attachment is formed can be a game changer for you as a parent and even more for a better life for your child.
-              </p>-->
-                <!--<p class="overview"style="margin-bottom:50px;"><b>Paula Wilson</b>parent <a href="#">SkyNet </a></p>-->
-            <!--</div>
+              <p class="testimonial text-center p-5">My wife and I had consulted Mamtha for marital counselling a few years ago. As we had kids, a lot of discussion involved parenting. She shared a good perspective of interacting with our soon-to-be-teenager daughter and son (~8yrs) in ways that would appeal to each. As our son was dealing with a chronic medical illness, she helped us in understanding and accepting what he would be going through and that was very helpful. I believe that Mamtha has the skills, experience and patience while helping with matters related to our children.</p>
+                <p class="overview"style="margin-bottom:50px;"><b></b><a href="#">Bhavesh</a></p>
+            </div>
+            
+            <div class="carousel-item">
+                
+                <p class="testimonial text-center p-5">
+                    My journey with Mamtha began about five years ago. 
+I  was at the lowest and darkest phase of my life and feeling extremely frightened,stressed  and lost before I met Mamtha. 
+My Counselling sessions with Mamtha gave me the courage to take charge of my life and walk out of an abusive marriage with my children.
+Mamtha's ability to be an empathetic and insightful listener, and her encouragement, slowly gave me the confidence to make my own choices.
+The sessions have also helped me in my role as a parent , the joint sessions I had with my daughter gave me an insight into her world and helped me understand her better ..
+ It has improved the communication between us and has made our relationship stronger.
+Understanding myself has also helped me in my role as a Parent,to manage expectation my own and theirs.
+Thank you Mamtha  for all the support.. you helped me find myself personally and professionally.
+
+                    
+                    </p>
+                     <p class="overview" style="margin-bottom:60px;"><b> </b>K <a href="#">(name withheld on request)</a></p>
+            </div>
+           
+             <div class="carousel-item">
+                
+                <p class="testimonial text-center p-5">
+                 
+                 Therapy has been my guidepost in figuring out what kind of mother I want to be. I was 26 when I first walked into a session with Ms. Mamtha. I found her to be a deeply empathetic, intelligent guide, who helped me iron out so much of my inner life, that I don’t know who I would have been without her intervention. 
+
+Thanks to therapy, I’m a happier, more peaceful person. Thanks to therapy, I actually like myself - a welcome relief from decades of disliking and judging myself. Therapy has helped my marriage, my relationships with my parents and sibling, and most importantly - influenced my actions as a parent. Because I now realize how important the early years are, I am more conscious of what I am saying to my child, and what I am modelling for her. Because I have examined unhealthy patterns in my family at great length, I am trying to create new patterns for my child. This journey has been one of the most meaningful, fascinating pursuits of my life. 
+                  </p>  
+                    <p class="overview" style="margin-bottom:60px;"><b></b> <a href="#">Vasudha Gopal</a></p>
+            </div>
+            
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -662,7 +508,7 @@
         </button>
       </div>
       </div>
-    </section>-->
+    </section>
 
     <a href="https://wa.me/918431378406" target="_blank">
       <div class="whatsapp_float">
@@ -682,9 +528,12 @@
               <a href="index.html"><img src="./Resources/Images/Group 39856.png" height="140px" width="230px" alt=""></a>
             </div>
             <ul class="list-unstyled nav-links mb-5">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="ourprograms.html">Our Programs</a></li>
               <li><a href="mellowbumps.html">MellowBumps</a></li>
-              <li><a href="training.html">Training</a></li>
+             
               <li><a href="media.html">Media</a></li>
+               <li><a href="blog.html">Blog</a></li>
               <!--<li><a href="gallery.html">Gallery</a></li>-->
               <li><a href="contact us.html">Contact Us</a></li>
             </ul>
@@ -848,6 +697,7 @@ items.forEach((item) => {
     <script>
       AOS.init();
     </script>
+    <script src="https://kit.fontawesome.com/a08096de0f.js" crossorigin="anonymous"></script>
     <script src="./Resources/Script/style.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
